@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.hopto.fundacioncgr.fundacioncgr.MainActivity">
+    <item
+        android:id="@+id/principal"
+        android:orderInCategory="100"
+        android:title="@string/volver_principal"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/m_idiomas"
+        android:orderInCategory="100"
+        android:title="@string/action_languajes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/m_accesibilidad"
+        android:orderInCategory="100"
+        android:title="@string/label_options_index" />
+
+</menu>

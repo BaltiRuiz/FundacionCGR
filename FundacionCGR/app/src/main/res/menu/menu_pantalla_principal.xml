@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.hopto.fundacioncgr.fundacioncgr.PantallaPrincipal">
+
+    <item
+        android:id="@+id/legal"
+        android:orderInCategory="100"
+        android:title="@string/aviso_legal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sugerencias"
+        android:orderInCategory="100"
+        android:title="@string/title_sugerencias"
+        app:showAsAction="never" />
+</menu>

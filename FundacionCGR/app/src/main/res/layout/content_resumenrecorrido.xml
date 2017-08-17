@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="82dp"
+                android:id="@+id/imageView2"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="245dp"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:text="Título del Recorrido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvTituloRecorrido"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:text="Breve descripción técnica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:id="@+id/tvDescripcionRecorrido"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:text="Abrir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btDesplegar"
+                android:layout_weight="0.03" />
+        </LinearLayout>
+
+        <TextView
+            android:text="Parrafo de resumen del recorrido que se podrá ocultar con el boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvResumenRecorrido"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="60dp">
+
+            <CheckBox
+                android:text="Subtítulos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:id="@+id/cbSubtitulos"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:text="Lenguaje de Signos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:id="@+id/cbLenguajeSignos"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:text="Audiodescripción"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:id="@+id/cbAudiodescripcion"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:text="Comenzar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btComenzar"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
